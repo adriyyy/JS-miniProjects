@@ -1,0 +1,57 @@
+body
+{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(38, 38, 38);
+    margin: 0;
+}
+
+.container
+{
+    position: relative;
+    max-width: 1000px;
+    width: 90%;
+}
+
+
+.container img
+{
+    width: 100%;
+    display: none;
+}
+
+.myButtons
+{
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    justify-content: space-between;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.myButtons button
+{
+    font-size: 2rem;
+    background-color: rgba(0, 0, 0, 0.272);
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+img.displaySlide
+{
+    display: block;
+    animation: fadeIn 2s;
+}
+
+@keyframes fadeIn
+{
+    from{opacity: 0} to{opacity: 1}
+}

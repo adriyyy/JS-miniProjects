@@ -1,0 +1,196 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    margin: 0;
+}
+
+p::selection, h1::selection, a::selection, button::selection
+{
+    background-color: rgb(163, 122, 122);
+    color: white;
+}
+
+nav ul{
+    list-style-type: none;
+    background-color: hsl(0, 0%, 20%);
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+nav ul a
+{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 20px;
+    text-align: center;
+    float: left;
+}
+
+nav ul a:hover
+{
+    background-color: rgb(44, 43, 43);
+}
+
+header, footer
+{
+    background-color: hsl(0, 0%, 78%);
+    text-align: center;
+    padding: 10px;
+}
+
+header h1::first-letter
+{
+    font-size: 4rem;
+    font-style: italic;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+main
+{
+    height: 300px;
+}
+
+aside
+{
+    width: 30%;
+    float: left;
+}
+
+section
+{
+    width: 40%;
+    float: left;
+}
+
+article
+{
+    width: 30%;
+    float: left;
+}
+
+footer
+{
+    background-color: transparent;
+    clear: both;
+}
+
+@media screen and (max-width: 600px){
+    aside, section, article
+    {
+        width: 100%;
+    }
+}
+
+.shop, .about, .contact
+{
+    width: 40%;
+    align-items: center;
+    margin-inline: auto;
+    text-align: center;
+}
+
+.pagination a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.pagination a.active
+{
+    background-color:  rgb(44, 43, 43);
+    color: white;
+}
+
+.pagination a:hover:not(.active)
+{
+    background-color: rgb(179, 179, 179);
+}
+
+.container
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.dropdown
+{
+    display: inline;
+}
+
+.dropdown button
+{
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 10px;
+}
+
+.dropdown .options
+{
+    background-color: rgb(101, 101, 101);
+    width: 150px;
+    display: none;
+    position: absolute;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.763);
+}
+
+.dropdown a
+{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    display: block;
+    padding: 10px 15px;;
+}
+
+.dropdown a:hover
+{
+    background-color: rgb(73, 73, 73);
+}
+.dropdown:hover .options
+{
+    display: block;
+}
+
+#myParagraph
+{
+    text-align: center;
+    margin-inline: auto;
+    width: 300px;
+}
+
+.gallery
+{
+    display: inline-block;
+    margin: 20px;
+    border: 2px solid rgb(110, 110, 110);
+}
+
+.description
+{
+    text-align: center;
+    border-top: 2px solid rgb(110, 110, 110);
+}
+
+.gallery img
+{
+    display: block;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+#myMain
+{
+    text-align: center;
+}

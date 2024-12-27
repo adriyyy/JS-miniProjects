@@ -1,0 +1,78 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(0, 0%, 90%);
+}
+
+#myH1
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(73, 73, 73);
+    font-size: 3rem;
+    font-weight: bold;
+
+}
+
+#container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 4px solid;
+    border-radius: 40px;
+    padding: 20px;
+    background-color: white;
+    padding: 50px;
+}
+
+#display
+{
+    font-size: 5rem;
+    font-family: monospace, sans-serif;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.635);
+    margin-bottom: 15px;
+}
+
+#controls button
+{
+    margin: 15px;
+    font-size: 1.5rem;
+    padding: 15px 30px;
+    border: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+    font-size: 1.5rem;
+}
+
+#startBtn
+{
+    background-color: rgb(30, 215, 30);
+}
+
+#stopBtn
+{
+    background-color: rgb(255, 71, 71);
+}
+
+#resetBtn
+{
+    background-color: rgb(38, 38, 249);
+}
+
+#startBtn:hover
+{
+
+    background-color: rgb(30, 150, 30);
+}
+
+#stopBtn:hover
+{
+    background-color: hsl(13, 100%, 40%);
+}
+
+#resetBtn:hover{
+    background-color: hsl(240, 95%, 40%);
+}

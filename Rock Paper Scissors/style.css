@@ -1,0 +1,83 @@
+body
+{
+    background-color: hsl(52, 15%, 62%);
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+#myH1
+{
+    display: block;
+    width: 100%;
+    background: linear-gradient(to right, antiquewhite, rgb(255, 201, 65));
+    font-weight: bold;
+    color: hsl(50, 100%, 32%);
+    text-align: center;
+    font-size: 3rem;
+}
+
+#choices
+{
+    display: flex;
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+#choices button
+{
+    font-size: 7rem;
+    padding: 20px;
+    margin-right: 15px;
+    border-radius: 150px;
+    border: 5px solid hsl(50, 100%, 32%);
+    background-color: hsl(34, 78%, 89%);
+    cursor: pointer;
+}
+
+#results
+{
+    font-size: 2rem;
+    font-weight: bold;
+    color: hsl(52, 15%, 62%);
+    text-shadow: -4px 0px 5px  hsl(50, 100%, 15%);
+    margin-bottom: 20px;
+}
+
+.resultMes
+{
+    font-size: 4rem;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color:  hsl(50, 100%, 15%);
+}
+
+
+#points
+{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 0;
+    width: 350px;
+    background: linear-gradient(to right, hsl(52, 15%, 75%),hsl(52, 15%, 62%));
+    padding:20px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    color:  hsl(0, 0%, 26%);
+}
+
+#choices button:hover{
+    background-color: hsl(34, 78%, 84%);
+}
+
+.wonResult, #playerPts
+{
+    color: green;
+}
+
+.loseResult, #compPts 
+{
+    color: tomato;
+}

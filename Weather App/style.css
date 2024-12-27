@@ -1,0 +1,113 @@
+body
+{
+    background-image: url(myImage.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: Arial;
+    margin: 0
+}
+
+.cityInput
+{
+    margin: 10px;
+    background-color: rgba(79, 69, 152, 0.436);
+    border: 2px solid;
+    border-color: rgb(254, 254, 254);
+    border-radius: 6px;
+    min-width: 300px;
+    font-size: 2.5rem;
+    color: rgba(247, 247, 247, 0.804);
+    padding: 10px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+
+button[type="submit"]
+{
+    background-color: hsla(37, 67%, 59%, 0.938);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 10px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover
+{
+    background-color:  hsla(37, 67%, 49%, 0.845);
+}
+
+
+button[type="submit"]:active
+{
+    background-color:  hsla(0, 72%, 67%, 0.845);
+}
+
+
+.card
+{
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.546), hsl(50, 92%, 54%));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    margin-top: 50px;
+    border-radius: 30px;
+    font-weight: bold;
+    min-width: 300px;
+    box-shadow: 7px 15px 10px rgba(9, 14, 51, 0.475);
+}
+
+p
+{
+    margin: 5px;
+    font-size: 2rem;
+}
+
+.cityDisplay
+{
+    color: rgb(211, 47, 47);
+    font-size: 4rem;
+    margin: 0px;
+    margin-bottom: 5px;
+    max-width: 350px;
+    text-align: center;
+}
+
+.tempDisplay
+{
+    color: rgba(0, 0, 0, 0.765);
+    font-size: 4rem;
+    margin: 0;
+
+}
+
+.humidityDisplay
+{
+    color: rgb(49, 103, 205);
+}
+
+.descDisplay
+{
+    font-style:italic;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 4px black;
+}
+
+.emojiDisplay
+{
+    font-size: 7rem;
+}
+
+.errorDisplay
+{
+    color: rgb(200, 136, 9);
+}

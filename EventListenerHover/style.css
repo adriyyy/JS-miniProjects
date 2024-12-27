@@ -1,0 +1,23 @@
+body
+{
+    font-family: monospace;
+}
+
+#myDiv
+{
+    border: 3px solid;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.25rem;
+    background-color: lightgreen;
+}
+
+#myButton
+{
+    font-size: 2rem;
+    font-family: inherit;
+}

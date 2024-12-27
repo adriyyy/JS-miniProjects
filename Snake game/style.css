@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(255, 234, 234);
+}
+
+#gameContainer
+{
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+}
+
+#gameBoard
+{
+    font-family: 'Bangers', sans-serif;
+    border: 3px solid;
+}
+
+#scoreText
+{
+    font-size: 70px;
+    text-shadow: 3px 0 3px rgba(0, 0, 0, 0.562);
+}
+
+#restartBtn
+{
+    font-family: 'Permanent Marker', cursive;
+    padding: 10px 20px;
+    font-size: 2rem;
+    border: 3px solid;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: rgb(83, 173, 206);
+}

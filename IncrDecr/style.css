@@ -1,0 +1,30 @@
+#CountLabel
+{
+    display:block;
+    color: rgb(85, 62, 20);
+    text-align: center;
+    font-size: 10em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#AllButtons
+{
+    text-align: center;
+}
+
+.buttons
+{
+    padding: 10px 20px;
+    font-size: 2em;
+    border-radius: 8px;
+    background-color: rgb(241, 190, 3);
+    color: rgb(131, 103, 10);
+    border-color: rgb(196, 134, 17);
+    transition: background-color 0.25s;
+}
+
+.buttons:hover
+{
+    background-color: rgb(155, 105, 12);
+    color: rgb(187, 143, 62);
+}

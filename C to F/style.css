@@ -1,0 +1,63 @@
+h1
+{
+    color: rgb(193, 78, 78);
+    text-shadow: 
+        1px 1px 0px #000, -1px -1px 0px #000, -1px 1px 0px #000, 1px -1px 0px #000; 
+}
+
+body
+{
+    background-color: hsl(240, 74%, 94%);
+    font-family: Arial, sans-serif;
+}
+
+form
+{
+    background-color: rgb(249, 191, 191);
+    max-width: 350px;
+    text-align: center;
+    margin: auto;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 5px 5px 15px rgba(101, 41, 41, 0.63);
+}
+
+#theTemp
+{
+    width: 50%;
+    text-align: center;
+    border-radius: 10px;
+    border-color: rgb(104, 55, 55);
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+label
+{
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+#submitBtn
+{
+    margin-top: 15px;
+    padding: 5px 15px;
+    font-size: 1.5em;
+    background-color: rgb(245, 182, 35);
+    color:hsl(0, 0%, 100%);
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+#submitBtn:hover
+{
+    background-color: rgb(255, 210, 104);
+    color: rgb(247, 247, 247);
+}
+
+#result
+{
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+    font-weight: bold;
+}
